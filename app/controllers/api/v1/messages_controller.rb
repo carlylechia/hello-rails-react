@@ -5,7 +5,7 @@ module Api
         @greetings = Message.all
         @random_message = @greetings.order('RANDOM()').first
 
-        render json: MessageSerializer.new(@random_message).serialized_json
+        render json: MessageSerializer.new(@random_message)
       end
 
       # def show
