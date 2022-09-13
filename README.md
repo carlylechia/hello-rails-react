@@ -1,24 +1,62 @@
-# README
+# HELLO RAILS-REACT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A fullstack app built with Rails(server) and React (browser side). A postgresql database was used.
 
-Things you may want to cover:
+## Built with
+- Ruby
+- Rails (RoR)
+- JavaScript
+- React
+- Redux
+- Postgresql
+- Rubocop
 
-* Ruby version
+## SetUp
+To get a local copy up and running, follow these steps:
 
-* System dependencies
+* You should have ***Ruby*** installed on your computer.
+* You should also have ***Rails*** installed on your computer.
+* Clone this repository into your computer by running the following command in your terminal:
+```
+git clone https://github.com/carlylechia/hello-rails-react.git
+```
+* Run this command in the cloned directory, to install required gems: 
+```
+bundle install
+```
+* Install all necessary React and Redux dependencies.
+- Run `Rubocop -A` and fix linters errors, if any.
+* Run the project in your browser:
+```
+.bin/dev
+```
 
-* Configuration
+## Authors
 
-* Database creation
+👤 **Chia Carlyle**
+- LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-chiacarlyle-black?logo=LinkedIn&logoColor=0A66C2&style=plastic)](https://linkedin.com/in/chia-carlyle)
 
-* Database initialization
+- GitHub: [![GitHub Badge](https://img.shields.io/badge/-carlylechia-black?logo=GitHub&logoColor=18171&style=plastic)](https://github.com/carlylechia)
 
-* How to run the test suite
+- Twitter: [![Twitter Badge](https://img.shields.io/badge/-chiacarlyle-black?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/chiacarlyle)
 
-* Services (job queues, cache servers, search engines, etc.)
+- Gmail: [![Gmail Badge](https://img.shields.io/badge/-chiacarlyle-black?logo=Gmail&logoColor=EA4335&style=plastic)](mailto:chiacarlyle@gmail.com)
 
-* Deployment instructions
 
-* ...
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to Microverse
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
